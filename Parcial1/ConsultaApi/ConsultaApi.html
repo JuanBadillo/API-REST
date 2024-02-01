@@ -14,16 +14,41 @@
         max-width: 100%;
         height: auto;
     }
+    .btn{
+        background: #3498db;
+        border-radius: 28px;
+        border: solid #004265 2px;
+        font-family: Arial;
+        color: #ffffff;
+        font-size: 20px;
+        padding: 10px 20px 10px 20px;
+    }
+    .btn:hover{
+        background: #004265;
+    }
+    .nmb{
+        background: #3498db;
+        border-radius: 28px;
+        width: 60px;
+        border: solid #004265 2px;
+        font-family: Arial;
+        color: #ffffff;
+        font-size: 20px;
+        padding: 5px 10px 5px 10px;
+    }
 </style>
 </head>
 <body>
-    <h1>Imagen Aleatoria</h1>
-    <button onclick="getRandomImage()">Obtener Imagen Aleatoria</button>
+    <button class="btn" onclick="getRandomImage()">Obtener Imagen Aleatoria</button><br><br>
+    <input class="nmb" id="number" type="number" value="400" min="100" step="100"/>
+    <br><br><br> 
     <div id="image-container"></div>
 
     <script>
         function getRandomImage() {
-            fetch('https://picsum.photos/400')
+            const inputValue = document.getElementById('number').value;
+            const url = `https://picsum.photos/${inputValue}`;
+            fetch(url)
                 .then(response => {
                     const imageUrl = response.url;
                     const imageContainer = document.getElementById('image-container');
