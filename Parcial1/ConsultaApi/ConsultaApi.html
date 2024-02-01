@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lorem Picsum</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        margin-top: 50px;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+</style>
+</head>
+<body>
+    <h1>Imagen Aleatoria</h1>
+    <button onclick="getRandomImage()">Obtener Imagen Aleatoria</button>
+    <div id="image-container"></div>
+
+    <script>
+        function getRandomImage() {
+            fetch('https://picsum.photos/400')
+                .then(response => {
+                    const imageUrl = response.url;
+                    const imageContainer = document.getElementById('image-container');
+                    imageContainer.innerHTML = `<img src="${imageUrl}" alt="Imagen Aleatoria">`;
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                });
+        }
+    </script>
+</body>
+</html>
