@@ -10,3 +10,6 @@
  ####  **Tabla de Contenidos**
 >    **[🟦 1. Parcial 1](https://github.com/JuanBadillo/API-REST/tree/main/Parcial1/)** 
 >>    [🔵 1.1 Consulta API](https://github.com/JuanBadillo/API-REST/tree/main/Parcial1/ConsultaApi)
+>>    [🔵 1.2 Hello World Express](https://github.com/JuanBadillo/API-REST/tree/main/Parcial1/ConsultaApi)
+>>    [🔵 1.3 Middleware](https://github.com/JuanBadillo/API-REST/tree/main/Parcial1/ConsultaApi)
+>>    [🔵 1.4 Envio Datos](https://github.com/JuanBadillo/API-REST/tree/main/Parcial1/ConsultaApi)
