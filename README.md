@@ -12,4 +12,6 @@
 >>    [🔵 1.1 Consulta API](https://github.com/JuanBadillo/API-REST/tree/main/Parcial1/ConsultaApi)\
 >>    [🔵 1.2 Hello World Express](https://github.com/JuanBadillo/API-REST/tree/main/Parcial1)\
 >>    [🔵 1.3 Middleware](https://github.com/JuanBadillo/API-REST/tree/main/Parcial1/Express)\
->>    [🔵 1.4 Envio Datos](https://github.com/JuanBadillo/API-REST/tree/main/Parcial1/ServidorExpressEnvioDatos)
+>>    [🔵 1.4 Envio Datos](https://github.com/JuanBadillo/API-REST/tree/main/Parcial1/ServidorExpressEnvioDatos)\
+>>    [🔵 1.5 Ejercicio Promesas/Objetos](https://github.com/JuanBadillo/API-REST/tree/main/Parcial1)\
+>>    [🔵 1.6 Express Consulta](https://github.com/JuanBadillo/API-REST/tree/main/Parcial1/ServidorExpressDB)
