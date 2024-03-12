@@ -15,7 +15,7 @@
 >>    [🔵 1.4 Envio Datos](https://github.com/JuanBadillo/API-REST/tree/main/Parcial1/ServidorExpressEnvioDatos)\
 >>    [🔵 1.5 Ejercicio Promesas/Objetos](https://github.com/JuanBadillo/API-REST/tree/main/Parcial1)\
 >>    [🔵 1.6 Express Consulta](https://github.com/JuanBadillo/API-REST/tree/main/Parcial1/ServidorExpressDB)\
->>    [🔵 1.7 Express Consulta CRUD](https://github.com/JuanBadillo/API-REST/tree/main/Parcial1/ServidorExpressDB_CRUD)\
+>>    [🔵 1.7 Express Consulta CRUD](https://github.com/JuanBadillo/API-REST/tree/main/Parcial1/ServidorExpressDB_CRUD)
 
 >    **[🟦 2. Parcial 2](https://github.com/JuanBadillo/API-REST/tree/main/Parcia2/)**
 >>    [🔵 2.1 Consulta API Github/Spotify](https://github.com/JuanBadillo/API-REST/tree/main/Parcial1/ConsultaApi)\
